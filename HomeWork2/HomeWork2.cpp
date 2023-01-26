@@ -1,12 +1,12 @@
-#include <iostream>
+п»ї#include <iostream>
 
 using namespace std;
 
 //#define Figura
-//#define ChessBoard //Мой вариант
+//#define ChessBoard //РњРѕР№ РІР°СЂРёР°РЅС‚
 //#define HardChess
-//#define New //Пример с тернарным оператором
-#define ChessBoarD //Вариант на уроке
+//#define New //РџСЂРёРјРµСЂ СЃ С‚РµСЂРЅР°СЂРЅС‹Рј РѕРїРµСЂР°С‚РѕСЂРѕРј
+#define ChessBoarD //Р’Р°СЂРёР°РЅС‚ РЅР° СѓСЂРѕРєРµ
 
 #define	UPPER_LEFT_ANGLE   (char)218
 #define UPPER_RIGHT_ANGLE  (char)191
@@ -19,8 +19,8 @@ using namespace std;
 #define	WHITE_BOX          "\xDB\xDB"         //(char)219 << (char)219
 #define	BLACK_BOX          "\x20\x20"         //(char)32 << (char)32
 
-//Escape -последовательность "\xXX" позволяет вставить символ по ASCII - коду
-//где 'XX'- это ASCII - код символа в 16-ой системе счисления.
+//Escape -РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ "\xXX" РїРѕР·РІРѕР»СЏРµС‚ РІСЃС‚Р°РІРёС‚СЊ СЃРёРјРІРѕР» РїРѕ ASCII - РєРѕРґСѓ
+//РіРґРµ 'XX'- СЌС‚Рѕ ASCII - РєРѕРґ СЃРёРјРІРѕР»Р° РІ 16-РѕР№ СЃРёСЃС‚РµРјРµ СЃС‡РёСЃР»РµРЅРёСЏ.
 
 void main()
 {
@@ -28,7 +28,7 @@ void main()
 #ifdef Figura
 	setlocale(LC_ALL, "Rus");
 	int n;
-	cout << "Введите колличество символов:" << endl;
+	cout << "Р’РІРµРґРёС‚Рµ РєРѕР»Р»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ:" << endl;
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
@@ -39,7 +39,7 @@ void main()
 
 	cout << endl;
 
-	cout << "Введите колличество символов:" << endl;
+	cout << "Р’РІРµРґРёС‚Рµ РєРѕР»Р»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ:" << endl;
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
@@ -51,7 +51,7 @@ void main()
 
 	cout << endl;
 
-	cout << "Введите колличество символов:" << endl;
+	cout << "Р’РІРµРґРёС‚Рµ РєРѕР»Р»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ:" << endl;
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
@@ -62,7 +62,7 @@ void main()
 
 	cout << endl;
 
-	cout << "Введите колличество символов:" << endl;
+	cout << "Р’РІРµРґРёС‚Рµ РєРѕР»Р»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ:" << endl;
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
@@ -73,7 +73,7 @@ void main()
 
 	cout << endl;
 
-	cout << "Введите колличество символов:" << endl;
+	cout << "Р’РІРµРґРёС‚Рµ РєРѕР»Р»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ:" << endl;
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
@@ -86,7 +86,7 @@ void main()
 	cout << endl;
 
 	int high, width;
-	cout << "Введите высоту ромба:" << endl;
+	cout << "Р’РІРµРґРёС‚Рµ РІС‹СЃРѕС‚Сѓ СЂРѕРјР±Р°:" << endl;
 	cin >> high;
 	width = high / 2;
 	for (int i = 0; i < width; i++)
@@ -111,7 +111,7 @@ void main()
 	cout << endl;
 
 	double size;
-	cout << "Введите размер фигуры:" << endl;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С„РёРіСѓСЂС‹:" << endl;
 	cin >> size;
 	for (int i = 0; i < size; i++)
 	{
@@ -183,7 +183,7 @@ void main()
 		setlocale(LC_ALL, "Rus");
 		double size1;
 		double size2 = 5;
-		cout << "Введите размер доски:" << endl;
+		cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РґРѕСЃРєРё:" << endl;
 		cin >> size1;
 		for (int i = 0; i < size1; i++)
 		{
@@ -222,7 +222,7 @@ void main()
 #ifdef New
 	setlocale(LC_ALL, "Rus");
 	int n;
-	cout << "Введите размерность:" << endl;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂРЅРѕСЃС‚СЊ:" << endl;
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
@@ -266,7 +266,7 @@ void main()
 
 	setlocale(LC_ALL, "");
 	int n;
-	cout << "Введите размер доски:";
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РґРѕСЃРєРё:";
 	cin >> n;
 	n++;
 	setlocale(LC_ALL, "C");
